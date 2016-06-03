@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, h1, form, button{border:0; margin:0px; padding:0px;}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+margin:50px 0px;
+padding:0px;
+width:900px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #B7DDF2; 
+background: #EBF4FB;
+}
+#stylized table {
+	border-collapse:collapse;
+	margin: 20px auto;
+}
+#stylized td {
+	border-collapse:collapse;
+	border:solid 2px #FFF;
+	padding: 5px 30px 5px 20px;
+}
+
+#stylized h1 {
+font-family: Verdana, Geneva, sans-serif;
+font:18px;
+font-weight:bold;
+color:#444;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:11px;
+margin-bottom:20px;
+border-bottom:solid 2px #AAA;
+padding-bottom:10px;
+}
+#stylized label{
+padding:0px;
+color:#024378;
+display:block;
+font-weight:bold;
+text-align:left;
+vertical-align:top;
+}
+#stylized .small{
+color:#666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:left;
+}
+#stylized .about{
+display:block;
+float:left;
+text-align:left;
+font-size:14px;
+padding:4px 2px;
+width:300px;
+margin:0 0 10px 10px;
+}
+
+#stylized input[type='text'] {
+display:block;
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+margin:2px 0 10px 5px;
+}
+
+#stylized input[type='password'] {
+display:block;
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+margin:2px 0 10px 5px;
+}
+#stylized textarea{
+display:block;
+float:left;
+font-size:12px;
+padding:2px 2px;
+border:solid 1px #aacfe4;
+width:350px;
+margin:2px 0 10px 5px;
+}
+
+#stylized input[type='submit'] {
+clear:both;
+margin-left:25px;
+width:125px;
+height:31px;
+background:#666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+
+#stylized button[type='submit'] {
+clear:both;
+margin-left:25px;
+width:200px;
+height:31px;
+background:#666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+
+#stylized select {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -webkit-user-select: none;
+  background-image: url(../images/select-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #555;
+  font-size: inherit;
+  margin:2px 0 10px 5px;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 0px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#stylized input[type='radio'] {
+-webkit-box-shadow: inset 0 1px 2px white, 0 1px 2px rgba(0, 0, 0, .2);
+-webkit-appearance: none;
+-webkit-margin-start: 0;
+-webkit-margin-end: 3px;
+-webkit-transition: border 500ms;
+background: -webkit-linear-gradient(#fafafa, #dcdcdc);
+border-radius: 100%;
+border: 1px solid #a0a0a0;
+display: inline-block;
+height: 15px;
+margin-bottom: 0;
+padding:4px 2px;
+position: relative;
+top: 3px;
+vertical-align: baseline;
+width: 15px;
+}
+#stylized input[type='radio']:disabled {
+opacity: .75;
+}
+#stylized input[type='radio']:not(:disabled):not(:active):hover {
+background: -webkit-linear-gradient(#fff, #e6e6e6);
+text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+#stylized input[type='radio']:not(:disabled):active {
+-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+background: -webkit-linear-gradient(#f0f0f0, #bebebe);
+border: 1px solid #808080;
+text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+}
+#stylized input[type='radio']:checked::before {
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+-webkit-margin-start: 4px;
+background: #808080;
+border-radius: 10px;
+content: '';
+display: inline-block;
+font-size: 13px;
+font-weight: 400;
+height: 5px;
+left: 0;
+margin-top: 4px;
+opacity: 1;
+position: absolute;
+top: 0;
+vertical-align: top;
+width: 5px;
+}
+html[dir='rtl'] input[type='radio']:checked::before {
+right: 0;
+}
+#stylized input[type='radio']:active:checked::before {
+background: #606060;
+}

@@ -1,0 +1,53 @@
+<!--	CRIADO POR EMILIANO FILHO	-->
+<!--	emilianosfilho@gmail.com 	-->
+<style type="text/css">
+	#sobre table{
+		border-collapse:collapse;
+		border-color:#069;
+		border:1px solid;
+	}
+	#sobre td{
+		padding:10px;
+	}
+
+</style>
+
+
+<h1 align="left">Sobre o Sistema de Apoio à Diretoria (SAD)</h1>
+
+<br />
+
+<div id="sobre">
+<table border="1">
+<tr>
+	<th>Versão atual:</th>
+    <td align="left"><strong>Notas da versão</strong></td>
+</tr>
+<tr>
+	<th> <strong>1.3</strong></th>
+    <td align="left">
+        <ul>
+            <li>Incluído a informação dos TOP 5 produtos mais cortados por motivo de "CORTES AUTOMATICOS".</li>
+            <li>Incluído a informação dos TOP 5 produtos mais cortados por motivo de "CORTES LOGÍSTICO FALTA - FLOW RACK".</li>
+            <li>Incluído a informação dos TOP 5 produtos mais cortados por motivo de "CORTES LOGÍSTICO FALTA - DEPOSITO".</li>
+        </ul>
+    </td>
+</tr>
+<tr>
+	<th> <strong>1.2</strong></th>
+    <td align="left">
+        <ul>
+            <li>Incluído o registro de log de acesso ao sistema.</li>
+            <li>Incluído o registro de log de envio de relatórios.</li>
+            <li>Incluído a informação de pedidos prorrogados no relatório do mês corrente, com agrupamento de prorrogados pagos e não pagos.</li>
+            <li>Alterada Informações referentes a contas a pagar para mostrar com valores em negativo.</li>
+            <li>Incluído a informação de percentagem referente aos itens de Posição de Pedidos (Liberados, bloqueados, etc..)</li>
+            <li>Incluído a informação de cortes na logística.</li>
+            <li>Incluído a informação de cortes automáticos.</li>
+        </ul>
+    </td>
+</tr>
+</table>
+</div>
+
+<br />

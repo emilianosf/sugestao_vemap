@@ -1,0 +1,137 @@
+/*
+	CRIADO POR EMILIANO FILHO
+	emilianosfilho@gmail.com
+*/
+html {
+	background: #80A7E1;
+	background: #EEE;
+}
+body {
+	width:936px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	border: 1px solid #999;
+	background: #FFF;
+	Margin:0px auto;
+	padding:0px;
+}
+
+#login {
+	padding: 0px auto;
+}
+#principal { 
+	width:900px; 
+	margin:30px auto; 
+	padding:0px;
+	text-align:center;
+	vertical-align:top;
+	border:0px;
+}
+#rodape p{
+	text-align:center;
+	padding:0px;
+	margin:0px auto;
+	font-size:10px;
+	color:rgb(192, 192, 192);
+	}
+
+#ico img{
+	border:1px solid #eee;
+	text-decoration: none;
+	display:block;
+}
+#ico img:hover{
+	border:1px solid #000;
+	background-color:#ccc;
+	text-decoration: none;
+}
+#ico label{
+	font-size:12px;
+	font-weight:bold;
+	color:#069;
+}
+
+#menu {
+	width:930px;
+	padding:0px;
+	margin:0;
+}
+#menu ul {
+	padding:0px;
+	margin:0px;
+	background-color:#EDEDED;
+	list-style:none;
+}
+#menu ul li { 
+	display: inline; 
+}
+#menu ul li a {
+	padding: 2px 10px;
+	display: inline-block;
+ 
+	/* visual do link */
+	background-color:#EDEDED;
+	color: #6D6D6D;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+	color: #333;
+	border-bottom:3px solid #EA0000;
+}
+
+
+h1 {
+	font-weight: bold;
+	letter-spacing: -0.03em;
+	line-height: 1.1em;
+	color: rgb(168, 0, 0);
+}
+h2 {
+	margin: 0px;
+	padding: 0px;
+	background-image:url(../img/aqua2.png);
+	color:#069;
+	font:18px "Arial Black", Gadget, sans-serif;
+	font-weight:bold;
+}
+ul {
+	margin-left:30px;
+	padding: 0px;
+}
+li {
+	margin: 5px;
+	margin-bottom:15px;
+	text-align:left;
+	color: rgb(44, 73, 118) !important;
+	font-weight: bold;
+	letter-spacing: -0.2px;
+}
+
+hr { 
+	padding:0; 
+	margin:0;
+}
+a {
+	color: #024378;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #04569A;
+	text-decoration: underline;
+}
+
+img{
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+#prompt {
+	background:#000;
+	color:#0F0;
+	margin:20px 200px;
+	padding:20px;
+	text-align:left;
+}
